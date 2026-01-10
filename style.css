@@ -1,0 +1,39 @@
+.hideMe {display:none;}
+  
+  
+  table {border-collapse: collapse;
+    float:left;
+margin: 0.5em; align-content: center;} 
+      td {border: 1px solid black; padding: 0.5em; width:1.5em; height: 1.5em; text-align: center;} 
+
+      .highlight {
+background-color: yellow;
+      }
+
+      #showMeLater { display: block;}
+
+table#myTableReverse {
+  display: none;
+}
+
+      @media screen and (min-width: 600px) {
+        section.intro {
+        width: 50%;
+        float: left;
+              }
+
+    section#TableSection {
+  width: 30%;
+  padding-left: 15px;
+  margin-left: 15px;
+  float: left;
+    }   
+      }
+    
+
+    aside {
+         margin-top:1em;
+         padding:0.5em;
+  font-style: italic;
+  background-color: lightgray;
+}   

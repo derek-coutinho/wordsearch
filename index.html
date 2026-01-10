@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+    <title>Word Search</title>
+<link rel="stylesheet" href="style.css">
+<!-- <script type="module" src="/search-module.js" defer></script> -->
+  <script src="/script.js" defer></script>
+  </head>
+  <body>
+
+    <main>
+      <!-- <h1>Wordsearch project</h1> -->
+        <h1>Javascript project</h1>
+      <section class="intro">
+    <p>You can find if a particular word is present in the wordsearch.</p>
+    <p>Enter the word search puzzle characters in a row, with each row seperated by a comma. Submit to create a searchable table</p>
+    <form>
+    <label for"enterText">Enter Text</label>
+    <input type="search" id="enterText" value="abc,def,ghi"> <!-- abc,def,ghi ||abcd,efgh,ijkl,mnop || abcde,fghij,hijkl,mnopq,rstuv || abcde,fghij,klmno,pqrst,uvwxy--> 
+    <button type="Submit" id="myButton">Submit</button>
+    </form>
+      </section>
+
+<section id="TableSection">
+  <div class ="searchArea hideMe">
+    <form>
+    <lable for"searchBox" >Enter Search text</lable>
+    <input id="searchBox">
+    </form>
+    <p id="searchResult"></p>
+  </div>
+            <table id="myTable">
+              <tbody id="puzzleTable">
+              <tr><td>A</td><td>B</td><td>C</td></tr>
+              <tr><td>D</td><td>E</td><td>F</td></tr>
+              <tr><td>G</td><td>H</td><td>I</td></tr>
+              </tbody>
+          </table>
+
+          <!-- <table id="myTableReverse">
+              <tbody id="puzzleTableReverse">
+              <tr><td>A</td><td>B</td><td>C</td></tr>
+              <tr><td>D</td><td>E</td><td>F</td></tr>
+              <tr><td>G</td><td>H</td><td>I</td></tr>
+              </tbody>
+          </table>
+    </main> -->
+            
+  
+        </section>
+    
+  </body>
+</html>
